@@ -13,7 +13,7 @@
 # Docker run -itd --name my-node-app -p 8000:3000 nopeapp:v1 # type on browser: localhost:8000
 
 # Command to delete docker images: Docker -rmi [image ID / Name ]
-# Command to remove exited containers : Docker rm `docker ps -q -f status=exited`
+# Command to remove exited containers : docker rm `docker ps -q -f status=exited`
 
 # Bind mount : docker run -itd -p 8000:3000 -v $(pwd):/usr/scr/app --name nodeapp nodeapp:v2
 # Bind mount : docker run -itd -p 8000:3000 -v ~/Desktop/docker_and_kubernetes_projects_udemy/Dockerfile:/usr/scr/app --name nodeapp_2 nodeapp:v2
